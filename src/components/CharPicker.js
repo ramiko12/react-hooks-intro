@@ -35,11 +35,6 @@ const CharPicker = (props) => {
         ))}
       </select>
     );
-  } else if (
-    !loading &&
-    (characters || characters.length === 0)
-  ) {
-    content = <p>Could not fetch any data.</p>;
   }
   return content;
 }

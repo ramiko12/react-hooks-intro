@@ -72,8 +72,6 @@ const Character = (props) => {
         movieCount={loadedCharacter.movieCount}
       />
     );
-  } else if (!loading && !fetchedCharacter) {
-    content = <p>Failed to fetch character.</p>;
   }
   return content;
 
